@@ -24,3 +24,5 @@ Set-Content -Path 'C:\Windows\System32\GroupPolicy\User\Scripts\Logon\DisableAut
 $byteContents = Convert-HexToByteArray $hexString
 Set-Content -Path 'C:\Windows\System32\GroupPolicy\Machine\Registry.pol' -Value $byteContents -Encoding BYTE -Force
 
+###
+
